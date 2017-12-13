@@ -51,8 +51,8 @@
         <!-- Listagem dos produtos -->
         <!--                       -->
         <!--                       -->
-        <!--                       -->   
-           
+        <!--           blá blá blá             -->   
+          
         <div class="row conteudo">            
             <div class="produtos col-8">
                 <div class="progress" v-show="carregando">
