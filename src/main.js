@@ -11,11 +11,13 @@ import BootstrapJs from '.././node_modules/bootstrap/dist/js/bootstrap.min.js'
 import icones from '.././node_modules/font-awesome/css/font-awesome.min.css'
 
 
+
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
 new Vue({
-    el: '#app',
+    el: '#app',        
     router,
     template: '<App/>',
     components: { App }

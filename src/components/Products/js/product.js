@@ -1,5 +1,8 @@
 import axios from '../../../.././node_modules/axios/index.js'
+import Es6Promise from '../../../.././node_modules/es6-promise/dist/es6-promise.min.js'
+import AutocompleteVue from 'autocomplete-vue';
 
+Es6Promise.polyfill();  
 function paginacao(response, este){
     este.pageAtual=este.startat/20;                       
     este.total = response.data.total; 
@@ -14,9 +17,9 @@ function paginacao(response, este){
 }
 
 export default {    
-    name: "GenerateProducts", 
+    name: "GenerateProducts",    
     data(){
-        return {                        
+        return {                                    
             id:"",
             carregando: false,
             quantityPage:20,
@@ -26,7 +29,7 @@ export default {
             pageAtual:0,            
             produtos:[],
             produto: {},
-            url:'http://192.168.10.40:8003/api/products/',
+            url:'http://brsbap01:8003/api/products/',
             mensagem:'',
             mensagemSuc:'',
             orderField:'',
@@ -91,7 +94,7 @@ export default {
             });            
         },        
 
-        buscar(id=""){    
+        buscar(id=""){              
             this.carregando = true;                                               
             var config = {
                 headers: {'Cache-Control':'no-cache'}

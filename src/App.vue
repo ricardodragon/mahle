@@ -3,7 +3,7 @@
 <template>
   <div id="app">
     <!--<img src="./assets/logo.png">-->
-    <nav-bar></nav-bar>    
+    <nav-bar></nav-bar> 
     
     <!--<router-view/>-->
   </div>

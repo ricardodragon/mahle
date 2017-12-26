@@ -30,7 +30,7 @@
     background-color: #F2FCFC;  
     float: right;
     left: 11.8%;
-    box-shadow: 3px 2px rgba(0,0,0,0.3);
+    box-shadow: 3px 2px rgba(0,0,0,0.5);
 }
 .icons {
     position: relative;    
@@ -60,7 +60,7 @@
     font-family: Arial, Helvetica, sans-serif;           
     padding: 0em 0.5em 0em 0.5em;    
     background-color: #F2FCFC; 
-    box-shadow: 2px 3px rgba(0,0,0,0.3);
+    box-shadow: 2px 3px rgba(0,0,0,0.5);
      
 }
 .menu-lateral ul{
